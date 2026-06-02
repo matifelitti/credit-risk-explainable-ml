@@ -18,6 +18,7 @@ class ProcesadorDatosCredito:
             "person_home_ownership": "tipo_vivienda",
             "person_emp_length": "antiguedad_laboral",
             "loan_intent": "motivo_credito",
+            "loan_grade": "calificacion_credito",
             "loan_amnt": "monto_solicitado",
             "loan_int_rate": "tasa_interes",
             "loan_status": "estado_credito",
@@ -81,6 +82,7 @@ class ProcesadorDatosCredito:
             "tipo_vivienda",
             "motivo_credito",
             "historial_morosidad",
+            "calificacion_credito",
         ]
         self.dataframe = pd.get_dummies(
             self.dataframe,

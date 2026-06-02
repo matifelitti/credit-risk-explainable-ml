@@ -21,3 +21,7 @@ htmlcov/
 *.swp
 
 data/raw/
+
+data/raw/
+data/processed/
+models/
